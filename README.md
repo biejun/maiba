@@ -24,7 +24,7 @@ Local use: run yarn serve command, browser visit http://localhost:8000/ to enter
 Deploy the application: run the yarn build command to deploy the packaged static html to your application server, access it through the domain name, and enter the consumption  
 
 本地使用：运行 yarn serve 命令，浏览器访问http://localhost:8000/进入消费   
-部署应用：运行yarn build命令，将打包好的静态html部署到你的应用服务器上，通过域名访问，进入消费  
+部署应用：运行yarn build命令，将打包在dist目录下的静态文件部署到你的应用服务器上，通过域名访问，进入消费  
 
 点击仓库可查看已购买的商品，还可以卖出和打印消费小票。
 修改价格，可在 public/store/ 目录下修改商品价格。
