@@ -8,7 +8,7 @@ Install using NPM (npm install) or Yarn (yarn install)
 ⚠️ ERROR: Failed to download Chromium r686378! Set "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" env variable to skip download  
 打包时依赖了puppeteer模块，下载这个模块可能会出现上述错误，原因是国内的网络限制，解决方案是切换下载镜像源，如：  
 npm config set PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors  
-相关Issue: [](https://github.com/puppeteer/puppeteer/issues/1597#issuecomment-351945645)
+相关Issue: https://github.com/puppeteer/puppeteer/issues/1597#issuecomment-351945645
 
 ## Developing   
 ```
