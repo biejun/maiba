@@ -1,0 +1,425 @@
+@import '../assets/less/variables';
+
+.header {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 15px;
+}
+
+.headerHook{
+  height: 50px;
+  transition: height 300ms;
+}
+
+.headerFixed{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: rgba(255 ,255, 255,0.95);
+  border-color: #eaeaea;
+  height: 70px;
+}
+
+.assets{
+  position: relative;
+
+  &User{
+    font-size: 14px;
+    margin: 1px;
+    color: @--color-normal;
+  }
+
+  &Money{
+    position: relative;
+    text-align: right;
+    font-size: 14px;
+    color: @--color-gray;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif;
+  }
+
+  .assetBalance{
+    position: relative;
+    font-size: 30px;
+    height: 35px;
+    line-height: 35px;
+    color: @--color-primary;
+  }
+}
+
+.verticalMiddle{
+  > *{
+    vertical-align: middle;
+  }
+}
+
+.info{
+  color: #888;
+  margin-left: 4px;
+  i{
+    font-size: 14px;
+  }
+}
+
+.avatar{
+  float: left;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  overflow: hidden;
+
+  img{
+    width: 100%;
+  }
+}
+
+.amount{
+  position: absolute;
+  right: 110px;
+  top: 0;
+  font-weight: bold;
+}
+
+.superNumber{
+  visibility: hidden;
+}
+
+.dynamicNumber{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menuWrap{
+  position: relative;
+  flex-basis: 180px;
+  text-align: right;
+
+  &:before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 40px;
+    top: -10px;
+    bottom: 0;
+    left: -10px;
+    background-color: #d6d0ce;
+  }
+}
+
+.menu {
+  font-size: 14px;
+  > li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    a{
+      position: relative;
+      color: @--color-normal;
+      &.active{
+        color: @--color-primary;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: auto;
+  width: 6px;
+  height: 6px;
+  background: #ff4d4f;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 0 1px #fff;
+  box-shadow: 0 0 0 1px #fff;
+  transform: translate(50%,-50%);
+  transform-origin: 100% 0%;
+}
+
+.message {
+  position: absolute;
+  bottom: 90%;
+  left: 45px;
+  background-color: #6b5fd7;
+  border-right-color: #6b5fd7;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 8px 16px;
+  word-break: break-all;
+  opacity: 0;
+  transition: all .15s ease;
+  transform: translateY(15px);
+
+  &:after {
+    position: absolute;
+    content: '';
+    left: -2px;
+    bottom: -10px;
+    width: 10px;
+    height: 10px;
+    border-width: 5px 10px 0 0;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: inherit;
+    border-radius: 0 0 60px 0;
+    z-index: auto;
+  }
+}
+
+.showMessage{
+  opacity: 1;
+  z-index: 99;
+  transform: translateY(0);
+}
+
+:global{
+
+  .number-enter {
+    opacity: 0.01;
+    transform: translateY(-15px);
+  }
+
+  .number-enter.number-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 200ms;
+  }
+
+  .number-leave {
+    opacity: 1;
+  }
+
+  .number-leave.number-leave-active {
+    opacity: 0.01;
+    transform: translateY(15px);
+    transition: all 200ms;
+  }
+
+  .number-increase-enter {
+    opacity: 0.01;
+    transform: translateY(15px);
+  }
+
+  .number-increase-enter.number-increase-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 200ms;
+  }
+
+  .number-increase-leave {
+    opacity: 1;
+  }
+
+  .number-increase-leave.number-increase-leave-active {
+    opacity: 0.01;
+    transform: translateY(-15px);
+    transition: all 200ms;
+  }
+
+  .amountUpdate{
+    opacity: 0;
+    transform: translateY(15px);
+    transition: all 200ms;
+
+    &.showAmount{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+}
+
+@media (min-width: 750px) {
+
+  .header {
+    padding-top: 20px;
+    height: 90px;
+    border-bottom: 1px solid #dcd4d1;
+    margin-bottom: 15px;
+  }
+
+  .headerWrap{
+    max-width: @--wrap-width;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  .logo{
+    flex-basis: 190px;
+    transition: flex-basis .3s cubic-bezier(.6,.04,.2, 1);
+    img{
+      display: block;
+      margin-left: 10px;
+      width: 90px;
+    }
+  }
+
+  .headerFixed{
+    box-shadow: 0px 0px 15px rgba(216, 216, 216, 0.8);
+
+    .logo{
+      flex-basis: 0;
+      width: 0;
+      overflow: hidden;
+      opacity: 0;
+    }
+  }
+
+  .content{
+    flex: 1;
+    padding: 10px 50px 10px 0;
+  }
+
+  .assets{
+    padding-left: 80px;
+  }
+
+  .avatar{
+    margin-left: -70px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .assetStatus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .header{
+    height: 200px;
+    border-bottom: none;
+  }
+
+  .logo{
+    padding-left: 15px;
+
+    img{
+      width: 60px;
+      margin-top: 7px;
+    }
+  }
+
+  .content{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+
+  .assets{
+    //padding-left: 40px;
+
+    &User{
+      overflow: hidden;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .assetBalance{
+      font-size: 26px;
+      line-height: 30px;
+      height: 30px;
+    }
+
+    &Money{
+      margin-top: 10px;
+      border-radius: 5px 5px 0 0;
+      text-align: center;
+      background-image: linear-gradient(to right, #b9b6b6 0, #cca290 100%);
+      padding: 10px;
+      padding-top: 7px;
+    }
+  }
+
+  .verticalMiddle{
+    color: #fff;
+  }
+
+  .info{
+    color: #fff;
+  }
+
+  .avatar{
+    width: 50px;
+    height: 50px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .menuWrap{
+    position: absolute;
+    top: 18px;
+    right: 0;
+    &:before{
+      display: none;
+    }
+  }
+
+  .headerFixed{
+    height: 78px;
+    background-color: transparent;
+
+    .logo, .menuWrap{
+      display: none;
+    }
+
+    .assets{
+      &User{
+        display: none;
+      }
+
+      &Money{
+        margin-top: 5px;
+      }
+    }
+
+    .avatar{
+      position: absolute;
+      top: -10px;
+      left: 10px;
+      margin-left: 0;
+      width: 35px;
+      height: 35px;
+      z-index: 5;
+    }
+
+    .message{
+      left: 30px;
+      bottom: 118%;
+      z-index: 6;
+
+      &:after{
+        display: block;
+      }
+    }
+  }
+
+  .dynamicNumber{
+    left: 0;
+    color: #fff;
+  }
+
+  .message{
+    left: 0;
+    right: 0;
+    &:after{
+      display: none;
+    }
+  }
+
+  .amount{
+    right: 10px;
+    top: -15px;
+  }
+}

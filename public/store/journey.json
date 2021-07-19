@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "name": "跑车",
+      "price": 14210000,
+      "image": "images/journey/01.jpg"
+    },
+    {
+      "name": "越野车",
+      "price": 1890000,
+      "image": "images/journey/02.jpg"
+    },
+    {
+      "name": "电动滑板车",
+      "price": 1799,
+      "image": "images/journey/03.jpg"
+    },
+    {
+      "name": "私人飞机",
+      "price": 9200000,
+      "image": "images/journey/04.jpg"
+    },
+    {
+      "name": "游艇",
+      "price": 1800000,
+      "image": "images/journey/05.jpg"
+    },
+    {
+      "name": "房车",
+      "price": 2600000,
+      "image": "images/journey/06.jpg"
+    },
+    {
+      "name": "电动面包车",
+      "price": 80000,
+      "image": "images/journey/07.jpg"
+    },
+    {
+      "name": "Jeep",
+      "price": 550000,
+      "image": "images/journey/08.jpg"
+    },
+    {
+      "name": "劳斯莱斯",
+      "price": 9200000,
+      "image": "images/journey/lsls.jpg"
+    },
+    {
+      "name": "宾利",
+      "price": 4930000,
+      "image": "images/journey/bl1.jpg"
+    },
+    {
+      "name": "二手大众",
+      "price": 17000,
+      "image": "images/journey/auto2000.jpg"
+    },
+    {
+      "name": "手扶拖拉机",
+      "price": 2988,
+      "image": "images/journey/tlj.jpg"
+    },
+    {
+      "name": "阿斯顿·马丁",
+      "price": 3880000,
+      "image": "images/journey/asdmd.jpg"
+    },
+    {
+      "name": "保时捷",
+      "price": 13980000,
+      "image": "images/journey/bsj918.jpg"
+    },
+    {
+      "name": "兰博基尼",
+      "price": 15000000,
+      "image": "images/journey/lanbojini.jpg"
+    },
+    {
+      "name": "观光车",
+      "price": 61000,
+      "image": "images/journey/ggc.jpg"
+    },
+    {
+      "name": "雾炮车",
+      "price": 152000,
+      "image": "images/journey/wpc.png"
+    },
+    {
+      "name": "三轮车",
+      "price": 5700,
+      "image": "images/journey/sl.png"
+    },
+    {
+      "name": "自行车",
+      "price": 2198,
+      "image": "images/journey/zxc.jpg"
+    },
+    {
+      "name": "快艇",
+      "price": 28790,
+      "image": "images/journey/dyc.jpg"
+    }
+  ]
+}

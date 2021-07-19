@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "name": "土豆",
+      "price": 6.9,
+      "image": "images/food/01.jpg"
+    },
+    {
+      "name": "榴莲",
+      "price": 188,
+      "image": "images/food/02.jpg"
+    },
+    {
+      "name": "黑松露",
+      "price": 455,
+      "image": "images/food/03.jpg"
+    },
+    {
+      "name": "虾条",
+      "price": 21.9,
+      "image": "images/food/04.jpg"
+    },
+    {
+      "name": "巧克力",
+      "price": 129,
+      "image": "images/food/05.jpg"
+    },
+    {
+      "name": "方便面",
+      "price": 10,
+      "image": "images/food/06.jpg"
+    },
+    {
+      "name": "可口可乐",
+      "price": 23.8,
+      "image": "images/food/07.jpg"
+    },
+    {
+      "name": "猪肉",
+      "price": 35,
+      "image": "images/food/08.jpg"
+    },
+    {
+      "name": "樱桃",
+      "price": 129,
+      "image": "images/food/09.jpg"
+    },
+    {
+      "name": "汉堡包",
+      "price": 28.5,
+      "image": "images/food/10.jpg"
+    },
+    {
+      "name": "燕窝",
+      "price": 2100,
+      "image": "images/food/11.jpg"
+    },
+    {
+      "name": "羊肉串",
+      "price": 25,
+      "image": "images/food/12.jpg"
+    },
+    {
+      "name": "卫龙辣条",
+      "price": 0.5,
+      "isUser": true,
+      "image": "images/food/13.jpg",
+      "customText": "压压惊"
+    },
+    {
+      "name": "五仁月饼",
+      "price": 9,
+      "image": "images/food/14.jpg"
+    },
+    {
+      "name": "比脸还大的披萨",
+      "price": 99,
+      "image": "images/food/15.jpg"
+    },
+    {
+      "name": "澳洲大龙虾",
+      "price": 1299,
+      "image": "images/food/16.jpg"
+    },
+    {
+      "name": "车厘子牛乳冰激凌",
+      "price": 20,
+      "image": "images/food/17.jpg"
+    },
+    {
+      "name": "可爱多",
+      "price": 38.9,
+      "image": "images/food/18.jpg"
+    },
+    {
+      "name": "拉面",
+      "price": 110,
+      "image": "images/food/19.jpg"
+    },
+    {
+      "name": "三文鱼",
+      "price": 139,
+      "image": "images/food/20.jpg"
+    }
+  ]
+}

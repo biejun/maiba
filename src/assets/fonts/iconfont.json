@@ -1,0 +1,58 @@
+{
+  "id": "1763696",
+  "name": "mai'ba",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5302973",
+      "name": "提示",
+      "font_class": "tishi",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "1028071",
+      "name": "钱",
+      "font_class": "qian",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "577341",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "252290",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "252291",
+      "name": "move",
+      "font_class": "move",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "6529905",
+      "name": "空",
+      "font_class": "kong",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "7008905",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    }
+  ]
+}

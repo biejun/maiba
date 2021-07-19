@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "serve": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint",
+    "postbuild": "react-snap"
+  },
+  "dependencies": {
+    "beta": "^0.0.1",
+    "classnames": "^2.2.6",
+    "dva": "^2.6.0-beta.20",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.0.0-rc.7",
+    "lodash": "^4.17.15",
+    "mathjs": "^6.6.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-transition-group": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "react-snap": "^1.23.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.5.0-beta.4"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "skipThirdPartyRequests": true,
+    "inlineCss": true
+  }
+}

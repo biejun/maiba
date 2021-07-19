@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "name": "LV 手袋",
+      "price": 20400,
+      "image": "images/fashion/01.jpg"
+    },
+    {
+      "name": "Nike 运动鞋",
+      "price": 799,
+      "image": "images/fashion/02.jpg"
+    },
+    {
+      "name": "钻石戒指",
+      "price": 15000,
+      "image": "images/fashion/03.jpg"
+    },
+    {
+      "name": "迪奥香水",
+      "price": 759,
+      "image": "images/fashion/04.jpg"
+    },
+    {
+      "name": "粉底液",
+      "price": 600,
+      "image": "images/fashion/05.jpg"
+    },
+    {
+      "name": "香奈儿",
+      "price": 999,
+      "image": "images/fashion/06.jpg"
+    },
+    {
+      "name": "口红",
+      "price": 330,
+      "image": "images/fashion/07.jpg"
+    },
+    {
+      "name": "太阳镜",
+      "price": 1788,
+      "image": "images/fashion/08.jpg"
+    },
+    {
+      "name": "爱马仕钱包",
+      "price": 9550,
+      "image": "images/fashion/09.jpg"
+    },
+    {
+      "name": "劳力士",
+      "price": 190000,
+      "image": "images/fashion/10.jpg"
+    },
+    {
+      "name": "手袋",
+      "price": 18000,
+      "image": "images/fashion/11.jpg"
+    },
+    {
+      "name": "连衣裙",
+      "price": 15200,
+      "image": "images/fashion/12.jpg"
+    },
+    {
+      "name": "露娜浅口平底鞋",
+      "price": 2238,
+      "image": "images/fashion/13.jpg"
+    },
+    {
+      "name": "VANS 经典板鞋",
+      "price": 469,
+      "image": "images/fashion/14.jpg"
+    },
+    {
+      "name": "PRADA 皮革手袋",
+      "price": 9800,
+      "image": "images/fashion/15.jpg"
+    },
+    {
+      "name": "OMEGA 星座系列",
+      "price": 25999,
+      "image": "images/fashion/16.jpg"
+    }
+  ]
+}

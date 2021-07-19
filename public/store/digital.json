@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "name": "iPhone",
+      "price": 6299,
+      "image": "images/digital/iphone.jpg"
+    },
+    {
+      "name": "Beats Studio3 Wireless",
+      "price": 2000,
+      "image": "images/digital/02.jpg"
+    },
+    {
+      "name": "索尼PS4 Pro PlayStation",
+      "price": 2799,
+      "image": "images/digital/03.jpg"
+    },
+    {
+      "name": "Pico VR",
+      "price": 2999,
+      "image": "images/digital/04.jpg"
+    },
+    {
+      "name": "无人机",
+      "price": 7299,
+      "image": "images/digital/05.jpg"
+    },
+    {
+      "name": "单反相机",
+      "price": 8299,
+      "image": "images/digital/06.jpg"
+    },
+    {
+      "name": "MacBook Pro",
+      "price": 15088,
+      "image": "images/digital/07.jpg"
+    },
+    {
+      "name": "智能手表",
+      "price": 3288,
+      "image": "images/digital/08.jpg"
+    },
+    {
+      "name": "Switch",
+      "price": 2598,
+      "image": "images/digital/09.jpg"
+    },
+    {
+      "name": "PS5",
+      "price": 8499,
+      "isUser": true,
+      "image": "images/digital/10.jpg"
+    },
+    {
+      "name": "手持云台相机",
+      "price": 2499,
+      "image": "images/digital/11.jpg"
+    },
+    {
+      "name": "透明电视",
+      "price": 59999,
+      "image": "images/digital/12.jpg"
+    },
+    {
+      "name": "iPad Air",
+      "price": 4799,
+      "isUser": true,
+      "image": "images/digital/ipadair4.jpg"
+    },
+    {
+      "name": "HUAWEI Mate 30 RS 保时捷",
+      "price": 12999,
+      "isUser": true,
+      "image": "images/digital/huawei.jpg"
+    },
+    {
+      "name": "Apple iPhone 12 Pro Max",
+      "price": 10099,
+      "isUser": true,
+      "image": "images/digital/iphone12promax.jpg"
+    },
+    {
+      "name": "SONY Xperia",
+      "price": 6959,
+      "image": "images/digital/sony.jpg"
+    }
+  ]
+}

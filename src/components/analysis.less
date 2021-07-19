@@ -1,0 +1,79 @@
+.itemTitle{
+  font-size: 24px;
+}
+
+.itemContent{
+  padding: 15px 0;
+  margin-bottom: 20px;
+
+  p{
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+
+  strong{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+.progressBar{
+  background-color: #bdbdbd;
+  position: relative;
+
+  &:after{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    right: 10px;
+    content: attr(data-title);
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.progressInner{
+  background-color: #F40;
+  height: 100%;
+}
+
+.consumerBehavior{
+
+  li{
+    height: 25px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+
+    span:first-child{
+      width: 70px;
+      padding-left: 5px;
+    }
+    span:last-child{
+      flex: 1;
+      height: 100%;
+      font-size: 13px;
+    }
+  }
+}
+
+.speed{
+  color: #F40;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.download{
+  vertical-align: -3px;
+  margin-right: 5px;
+}
+
+.resultWrap{
+  margin: -15px;
+}
+
+.result{
+  padding: 15px;
+}

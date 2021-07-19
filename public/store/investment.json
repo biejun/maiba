@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "name": "奶茶店",
+      "price": 3000000,
+      "image": "images/invest/01.jpg"
+    },
+    {
+      "name": "上海豪宅",
+      "price": 55000000,
+      "image": "images/invest/hz.jpg"
+    },
+    {
+      "name": "拼夕夕公司的股票",
+      "price": 2000,
+      "image": "images/invest/03.jpg"
+    },
+    {
+      "name": "买下NBA球队",
+      "price": 268600000,
+      "image": "images/invest/nba.jpg"
+    },
+    {
+      "name": "高端写字楼",
+      "price": 11800000,
+      "image": "images/invest/06.jpg"
+    },
+    {
+      "name": "深圳一套房",
+      "price": 26800000,
+      "image": "images/invest/07.jpg"
+    },
+    {
+      "name": "海岛",
+      "price": 320000000,
+      "image": "images/invest/08.jpg"
+    },
+    {
+      "name": "收购买吧",
+      "price": 100000000,
+      "image": "images/invest/09.jpg"
+    },
+    {
+      "name": "黄金",
+      "price": 9999.99,
+      "image": "images/invest/hj.jpg"
+    },
+    {
+      "name": "高尔夫球场",
+      "price": 120000000,
+      "image": "images/invest/gef.jpg"
+    },
+    {
+      "name": "五星级酒店",
+      "price": 250000000,
+      "image": "images/invest/jd.jpg"
+    },
+    {
+      "name": "大型超市",
+      "price": 160000000,
+      "image": "images/invest/cs.jpg"
+    },
+    {
+      "name": "1000000个狗狗币",
+      "price": 611000,
+      "isUser": true,
+      "image": "images/invest/gougou.jpeg"
+    }
+  ]
+}

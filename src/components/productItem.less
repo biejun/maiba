@@ -1,0 +1,248 @@
+@import '../assets/less/variables';
+
+.productItem{
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.productImage{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 30px auto;
+
+  img{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+}
+
+.productRef{
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  font-size: 12px;
+  color: #999;
+}
+
+.haveBought{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: fade(@--color-primary, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.6s;
+
+  &.showBought{
+    opacity: 1;
+  }
+}
+
+.shoppingCar{
+  margin-bottom: 6px;
+  i{
+    font-size: 1.8em;
+  }
+}
+
+.productInfo{
+  padding: 0 10px;
+  text-align: center;
+  height: 130px;
+  font-size: 12px;
+}
+
+.productIncome{
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.productName{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.productPrice{
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  color: @--color-primary;
+
+
+  small{
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  span{
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.productBuy{
+  width: 80%;
+  min-width: 100px;
+  margin: 20px auto auto;
+}
+
+.buyLeft{
+  position: relative;
+  float: left;
+  width: 60%;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  transition: all .3s;
+  border-radius: 2px;
+  padding: 0 30px;
+
+  input{
+    width: 100%;
+    border: none;
+    height: 28px;
+    box-sizing: border-box;
+    color: rgba(0,0,0,.65);
+    line-height: 1.5715;
+    text-align: center;
+    -webkit-appearance: none;
+    &:focus{
+      outline: 0;
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+}
+
+.buyLeftFocus{
+  border-color: @--color-primary;
+  outline: 0;
+  box-shadow: 0 0 0 2px fade(@--color-primary,20%);
+}
+
+.buyNumberInputLeft{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  border-right: 1px solid #d9d9d9;
+}
+
+.buyNumberInputRight{
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  border-left: 1px solid #d9d9d9;
+}
+
+.numberHandle{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: @--color-gray;
+  line-height: 0;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select:none;
+  background-color: #fff;
+
+  &:not(.numberHandleDisabled):hover{
+    color: @--color-primary;
+    background-color: #fde7dd;
+  }
+
+  span{
+    display: inline-block;
+    margin-top: 15px;
+    i{
+      font-size: 14px;
+    }
+  }
+}
+
+.numberHandleDisabled{
+  color: #c7c7c7;
+  cursor: not-allowed;
+  background-color: #f5f5f5;
+}
+
+.buyRight{
+  float: left;
+  width: 40%;
+  padding-left: 2%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 750px) {
+
+  .productItem{
+    display: flex;
+  }
+  .productImage{
+    height: 130px;
+    margin: 15px 10px;
+  }
+
+  .productInfo{
+    height: 155px;
+    padding: 15px 15px 0 5px;
+  }
+
+  .productBuy{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .productName{
+    font-size: 14px;
+    user-select:none;
+    text-align: left;
+  }
+
+  .productPrice{
+    text-align: left;
+  }
+
+  .buyLeft{
+    width: 100%;
+    padding: 0 50px;
+  }
+  .buyRight{
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .buyNumberInputLeft,
+  .buyNumberInputRight{
+    width: 40px;
+    user-select:none;
+  }
+}

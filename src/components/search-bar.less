@@ -1,0 +1,47 @@
+@import "../assets/less/variables.less";
+
+@borderColor: #c7c7c7;
+
+.search{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search-bar{
+  position: relative;
+  height: 36px;
+}
+
+.search-input{
+  width: 320px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid @borderColor;
+  border-radius: 3px;
+  background: #fff;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+
+.search-types{
+  margin-top: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.search-type-tag{
+  cursor: pointer;
+  margin-right: 80px;
+  display: inline-block;
+
+  &:last-child{
+    margin-right: 0;
+  }
+}

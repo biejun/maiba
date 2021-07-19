@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "name": "给程序猿加鸡腿",
+      "price": 5,
+      "image": "images/charity/1.jpg"
+    },
+    {
+      "name": "为山区的娃娃加餐",
+      "price": 10000000,
+      "image": "images/charity/jc.jpg",
+      "customText": "捐款"
+    },
+    {
+      "name": "扶贫广大困难群众",
+      "price": 100000,
+      "image": "images/charity/2.jpg",
+      "customText": "捐款"
+    },
+    {
+      "name": "打赏三口一头猪",
+      "price": 666,
+      "image": "images/charity/03.jpg",
+      "customText": "666"
+    },
+    {
+      "name": "裁掉你的老板",
+      "price": 3000000,
+      "image": "images/charity/4.jpg",
+      "customText": "滚吧"
+    },
+    {
+      "name": "为爱豆打榜",
+      "price": 10000,
+      "image": "images/invest/05.jpg",
+      "customText": "支持"
+    },
+    {
+      "name": "请保镖",
+      "price": 23032000,
+      "image": "images/charity/05.jpg"
+    },
+    {
+      "name": "去非洲",
+      "price": 9.9,
+      "image": "images/charity/06.jpg"
+    },
+    {
+      "name": "网抑云会员",
+      "price": 29,
+      "image": "images/charity/08.gif"
+    },
+    {
+      "name": "让马爸爸夸我一下",
+      "price": 100,
+      "image": "images/charity/09.png",
+      "customText": "快夸我"
+    },
+    {
+      "name": "锻炼身体",
+      "price": 0.01,
+      "image": "images/charity/10.jpg"
+    },
+    {
+      "name": "包下北京土味环球影城",
+      "price": 30000000,
+      "isUser": true,
+      "image": "images/charity/un.jpg"
+    },
+    {
+      "name": "打赏马爸爸直播",
+      "price": 999.99,
+      "isUser": true,
+      "image": "images/charity/mababazhibo.jpg"
+    }
+  ]
+}
